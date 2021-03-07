@@ -10,6 +10,7 @@ public class VendingController {
 
     private boolean notDone = true;
     private final Cli cli;
+    
 
     @Autowired
     public VendingController(Cli cli) {
